@@ -1,0 +1,24 @@
+type Video {
+  id: Int!
+  name: String!
+  v240p: String
+  v480p: String
+  v1080p: String
+  v4k: String
+}
+
+type Query {
+  Video(id: Int!): Video
+  Videos: [Video]
+}
+
+type Mutation {
+  CreateVideo(  
+    name: String!
+    file: String!
+  ): Video!
+  UpdateVideo(
+    id: Int!
+    name: String
+  ): Video!
+}
