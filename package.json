@@ -12,7 +12,7 @@
     "apollo-upload-client": "^14.1.0",
     "dataloader-sequelize": "^2.3.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ffmpeg": "^0.0.4",
     "graphql": "^14",
     "graphql-relay": "^0.6.0",
